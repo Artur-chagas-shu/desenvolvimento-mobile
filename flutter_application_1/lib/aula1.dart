@@ -10,6 +10,9 @@ void main (){
    String sayHello(String name) {
     return "Hello $name";
    }
+   
+   sayGoodbye(name);
+   print(sayHello(name));
 
 
 }
